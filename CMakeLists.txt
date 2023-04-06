@@ -18,3 +18,5 @@ target_link_libraries(solver formatter_ex_lib formatter_lib solver_lib)
 install(TARGETS solver
     RUNTIME DESTINATION bin
 )
+
+include(CPackConfig.cmake)
